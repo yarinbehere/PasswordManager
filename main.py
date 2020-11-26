@@ -1,14 +1,13 @@
-import os
-import subprocess
-from tkinter import *
-import clipboard
-from tkinter import messagebox
-from random import choice, randint, shuffle
-import pyperclip
-import string
-from urllib.parse import urlparse
 import json
+import os
+import string
+from random import choice, randint, shuffle
+from tkinter import *
+from tkinter import messagebox
+from urllib.parse import urlparse
+import clipboard
 import pyAesCrypt
+import pyperclip
 
 bufferSize = 64 * 1024
 password = "password"
